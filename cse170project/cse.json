@@ -1,211 +1,295 @@
 [
 	{ 
 	"name": "CSE 100",
+	"courseName": "Advanced Data Structures",
+	"units": "4",
 	"enrollment": "40",
 	"openSeats": "100",
 	"totalSeats": "140",
 	"enrollRate": "4",
 	"timeUntilFull": "25",
+	"professorName": "Baden, Scott B.",
+	"lectureTime":"MWF 2:00p - 2:50p",
 	"description": "High-performance data structures and supporting algorithms. Use and implementation of data structures like (un)balanced trees, graphs, priority queues, and hash tables. Also memory management, pointers, recursion. Theoretical and practical performance analysis, both average case and amortized. Uses C++ and STL. Credit not offered for both Math 176 and CSE 100. Equivalent to Math 176."
 	},
 
 	{ 
 	"name": "CSE 101",
+	"courseName": "Design/Analysis of Algorithm",
+	"units": "4",
 	"enrollment": "150",
 	"openSeats": "200",
 	"totalSeats": "350",
 	"enrollRate": "15",
 	"timeUntilFull": "13",
+	"professorName": "Impagliazzo, Russell",
+    "lectureTime":"MW 5:00p - 6:20p",
 	"description": "Design and analysis of efficient algorithms with emphasis of nonnumerical algorithms such as sorting, searching, pattern matching, and graph and network algorithms. Measuring complexity of algorithms, time and storage. NP-complete problems. Credit not offered for both Math 188 and CSE 101. Equivalent to Math 188."
 	},
 
 	{ 
 	"name": "CSE 105",
+	"courseName": "Intro/Theory of Computation",
+	"units": "4",
 	"enrollment": "100",
 	"openSeats": "96",
 	"totalSeats": "196",
 	"enrollRate": "10",
 	"timeUntilFull": "9.6",
+	"professorName": "Ferrante, Jeanne",
+    "lectureTime": "TuTh 2:00p - 3:20p",
 	"description": "An introduction to the mathematical theory of computability. Formal languages. Finite automata and regular expression. Push-down automata and context-free languages. Computable or recursive functions: Turing machines, the halting problem. Undecidability. Credit not offered for both Math 166 and CSE 105. Equivalent to Math 166."
 	},
 
 	{ 
 	"name": "CSE 110",
+	"courseName": "Software Engineering",
+	"units": "4",
 	"enrollment": "46",
 	"openSeats": "100",
 	"totalSeats": "146",
 	"enrollRate": "4.6",
 	"timeUntilFull": "22",
+	"professorName": "Gillespie, Gary N",
+    "lectureTime": "TuTh 3:30p - 4:50p",
 	"description": "Introduction to software development and engineering methods, including specification, design, implementation, testing, and process. An emphasis on team development, agile methods, and use of tools such as IDEÅfs, version control, and test harnesses. CSE 70 is renumbered to CSE 110: students may not receive credit for both CSE 70 and CSE 110."
 	},
 
 	{ 
 	"name": "CSE 120",
+	"courseName": "Princ/Computer Operating Systm",
+	"units": "4",
 	"enrollment": "49",
 	"openSeats": "101",
 	"totalSeats": "150",
 	"enrollRate": "4.9",
 	"timeUntilFull": "21",
+	"professorName": "Zhou, Yuan-Yuan",
+    "lectureTime": "TuTh 09:30a - 10:50a",
 	"description": "Basic functions of operating systems; basic kernel structure, concurrency, memory management, virtual memory, file systems, process scheduling, security and protection."
 	},
 
 	{ 
 	"name": "CSE 125",
+	"courseName": "Software Sys Design & Implemnt",
+	"units": "4",
 	"enrollment": "15",
 	"openSeats": "20",
 	"totalSeats": "35",
 	"enrollRate": "1.5",
 	"timeUntilFull": "13",
+	"professorName": "Voelker, Geoffrey M.",
+	"lectureTime": "MW 09:00a - 10:20a",
 	"description": "Design and implementation of large, complex software systems involving multiple aspects of CSE curriculum. Emphasis is on software system design applied to a single, large group project with close interaction with instructor."
 	},
 
 	{ 
 	"name": "CSE 127",
+	"courseName": "Intro to Computer Security",
+	"units": "4",
 	"enrollment": "90",
 	"openSeats": "106",
 	"totalSeats": "196",
 	"enrollRate": "9",
 	"timeUntilFull": "12",
+	"professorName": "Shacham, Hovav",
+    "lectureTime": "MW 5:00p - 6:20p",
 	"description": "Topics include basic cryptography, security/threat analysis, access control, auditing, security models, distributed systems security, and theory behind common attack and defense techniques. The class will go over formal models as well as the bits and bytes of security exploits."
 	},
 
 	{ 
 	"name": "CSE 130",
+	"courseName": "Progrmng Lang:Princpl&Paradigm",
+	"units": "4",
 	"enrollment": "45",
 	"openSeats": "104",
 	"totalSeats": "149",
 	"enrollRate": "4.5",
 	"timeUntilFull": "23",
+	"professorName": "Jhala, Ranjit",
+    "lectureTime": "TuTh 12:30p - 1:50p",
 	"description": "(Formerly CSE 173.) Introduction to programming languages and paradigms, the components that comprise them, and the principles of language design, all through the analysis and comparison of a variety of languages (e.g., Pascal, Ada, C++, PROLOG, ML.) Will involve programming in most languages studied."
 	},
 
 	{ 
 	"name": "CSE 131",
+	"courseName": "Compiler Construction",
+	"units": "4",
 	"enrollment": "124",
 	"openSeats": "72",
 	"totalSeats": "194",
 	"enrollRate": "12.4",
 	"timeUntilFull": "6",
+	"professorName": "Ord, Richard",
+    "lectureTime": "TuTh 3:30p - 4:50p",
 	"description": "(Formerly CSE 131B.) Introduction to the compilation of programming languages, practice of lexical and syntactic analysis, symbol tables, syntax-directed translation, type checking, code generation, optimization, interpretation, and compiler structure. (Students may receive repeat credit for CSE 131A and CSE 131B by completing CSE 131.)"
 	},
 
 	{ 
 	"name": "CSE 135",
+	"courseName": "Server-side Web Applications",
+	"units": "4",
 	"enrollment": "145",
 	"openSeats": "30",
 	"totalSeats": "175",
 	"enrollRate": "14.5",
 	"timeUntilFull": "2",
+	"professorName": "Papakonstantinou, Yannis",
+    "lectureTime": "MF 5:00p - 6:20p",
 	"description": "Design and implementation of dynamic web-based applications. Multitier architecture, scripting languages, SQL, XML, session handling, nonbrowser clients, web services, and scalability, security, and usability in the web context."
 	},
 
 	{ 
 	"name": "CSE 140",
+	"courseName": "Component&Desgn Tech/Digtl Sys",
+	"units": "4",
 	"enrollment": "200",
 	"openSeats": "50",
 	"totalSeats": "250",
 	"enrollRate": "20",
 	"timeUntilFull": "2.5",
+	"professorName": "Cheng, Chung Kuan",
+    "lectureTime": "TuTh 5:00p - 6:20p",
 	"description": "(Formerly CSE 170A) Design of Boolean logic and finite state machines; two-level, multilevel combinational logic design, combinational modules and modular networks, Mealy and Moore machines, analysis and synthesis of canonical forms, sequential modules."
 	},
 
 	{ 
 	"name": "CSE 140L",
+	"courseName": "Digital Systems Laboratory",
+	"units": "2",
 	"enrollment": "200",
 	"openSeats": "50",
 	"totalSeats": "250",
 	"enrollRate": "20",
 	"timeUntilFull": "2.5",
+	"professorName": "Kim, Choon",
+    "lectureTime": "F 4:00p - 4:50p",
 	"description": "(Formerly CSE 175B) Implementation with computer-aided design tools for combinational logic minimization and state machine synthesis. Hardware construction of a small digital system."
 	},
 
 	{ 
 	"name": "CSE 141",
+	"courseName": "Intro/Computer Architecture",
+	"units": "4",
 	"enrollment": "44",
 	"openSeats": "31",
 	"totalSeats": "75",
 	"enrollRate": "4.4",
 	"timeUntilFull": "7",
+	"professorName": "Swanson, Steven James",
+    "lectureTime": "TuTh 09:30a - 10:50a",
 	"description": "Introduction to computer architecture. Computer system design. Processor design. Control design. Memory systems."
 	},
 
 	{ 
 	"name": "CSE 141L",
+	"courseName": "Project/Computer Architecture",
+	"units": "2",
 	"enrollment": "44",
 	"openSeats": "31",
 	"totalSeats": "75",
 	"enrollRate": "4.4",
 	"timeUntilFull": "7",
+	"professorName": "Swanson, Steven James",
+    "lectureTime": "F 11:00a - 11:50a",
 	"description": "Hands-on computer architecture project aiming to familiarize students with instruction set architecture, and design of process. Control and memory systems."
 	},
 
 	{ 
 	"name": "CSE 145",
+	"courseName": "Embedded System Design Project",
+	"units": "4",
 	"enrollment": "0",
 	"openSeats": "0",
 	"totalSeats": "N/A",
 	"enrollRate": "N/A",
 	"timeUntilFull": "N/A",
+	"professorName": "Kastner, Ryan Charles",
+    "lectureTime": "TuTh 11:00a - 12:20p",
 	"description": "Project class building an embedded computing system. Learn fundamental knowledge of microcontrollers, sensors, and actuators. Introduction to the hardware and software tools to build project in a team environment and end-to-end system building."
 	},
 
 	{ 
 	"name": "CSE 148",
+	"courseName": "Adv Processor Arch Design Proj",
+	"units": "4",
 	"enrollment": "5",
 	"openSeats": "10",
 	"totalSeats": "15",
 	"enrollRate": "0.5",
 	"timeUntilFull": "20",
+	"professorName": "Tullsen, Dean Michael",
+    "lectureTime": "TuTh 3:30p - 4:50p",
 	"description": "Students will use hardware description language tools to add advanced architectural features to a basic processor design. These features may include pipelining, superscalar execution, branch prediction, and advanced cache features. Designs will be implemented in programmable logic devices."
 	},
 
 	{ 
 	"name": "CSE 151",
+	"courseName": "Intro to A.I. Stats Approach",
+	"units": "4",
 	"enrollment": "126",
 	"openSeats": "70",
 	"totalSeats": "196",
 	"enrollRate": "12.6",
 	"timeUntilFull": "6",
+	"professorName": "Chaudhuri, Kamalika",
+    "lectureTime": "TuTh 2:00p - 3:20p",
 	"description": "Reasoning with probabilities, reasoning and learning with Bayesian networks, decision making under uncertainty, sequential decision making, statistical learning methods, and reinforcement learning."
 	},
 
 	{ 
 	"name": "CSE 168",
+	"courseName": "Computer Graphics II:Rendering",
+	"units": "4",
 	"enrollment": "30",
 	"openSeats": "45",
 	"totalSeats": "75",
 	"enrollRate": "3",
 	"timeUntilFull": "15",
+	"professorName": "Jensen, Henrik",
+    "lectureTime": "MWF 12:00p - 12:50p",
 	"description": "Weekly programming assignments that will cover graphics rendering algorithms. During the course the students will learn about ray tracing, geometry, tessellation, acceleration structures, sampling, filtering, shading models, and advanced topics such as global illumination and programmable graphics hardware."
 	},
 
 	{ 
 	"name": "CSE 184",
+	"courseName": "Computational Molecular Biol.",
+	"units": "4",
 	"enrollment": "8",
 	"openSeats": "2",
 	"totalSeats": "10",
 	"enrollRate": "0.8",
 	"timeUntilFull": "2.5",
+	"professorName": "Wang, Wei",
+	"lectureTime": "TuTh 11:00a - 12:20p",
 	"description": "This advanced course covers the application of machine learning and modeling techniques to biological systems. Topics include gene structure, recognition of DNA and protein sequence patterns, classification, and protein structure prediction. Pattern discovery, Hidden Markov models/support victor machines/neural network/profiles. Protein structure prediction, functional characterization or proteins, functional genomics/proteomics, metabolic pathways/gene networks."
 	},
 
 	{ 
 	"name": "CSE 190",
+	"courseName": "Computational Molecular Biol.",
+	"units": "4",
 	"enrollment": "38",
 	"openSeats": "2",
 	"totalSeats": "40",
 	"enrollRate": "3.8",
 	"timeUntilFull": "1",
+	"professorName": "Kriegman, David J",
+    "lectureTime": "TuTh 2:00p - 3:20p",
 	"description": "Topics of special interest in computer science and engineering. Topics may vary from quarter to quarter. May be repeated for credit with the consent of instructor."
 	},
 
 	{ 
 	"name": "CSE 191",
+	"courseName": "Semnr/Computer Sci & Engineer",
+	"units": "1-4",
 	"enrollment": "28",
 	"openSeats": "20",
 	"totalSeats": "48",
 	"enrollRate": "2.8",
 	"timeUntilFull": "7",
+	"professorName": "Bellare, Mihir",
+    "lectureTime": "MWF 11:00a - 11:50a",
 	"description": "A seminar course on topics of current interest. Students, as well as, the instructor will be actively involved in running the course/class. This course cannot be counted toward a technical elective."
 	}
 

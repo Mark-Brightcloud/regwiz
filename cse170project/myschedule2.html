@@ -1,0 +1,101 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<title>My Schedule</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+			
+		<link rel="stylesheet" href="../cse170project/jquery.mobile-1.4.0/jquery.mobile-1.4.0.min.css" />
+		<script src="../cse170project/jquery.mobile-1.4.0/jquery-1.9.1.min.js"></script>
+		<script src="../cse170project/jquery.mobile-1.4.0/jquery.mobile-1.4.0.min.js"></script>
+	</head> 
+	
+	<body>
+	
+	<div id="myschedule" data-role="page" data-fullscreen="true" data-theme="a" style="background-color: lightgrey;">
+		
+		<header id="headerDiv" data-role="header" data-theme="b" data-position="fixed">
+			<h3>My Schedule</h3>
+			
+		</header>
+	
+
+		<div data-role="content">
+			<a href="../cse170project/myschedule.html" 
+			data-mini="true" data-role="button" data-transition="flip">Wrong Loopkup Code?</a><br />
+			
+			<h3>Watching class(es)</h3><hr />
+			
+			
+			<div id="d1" style="clear: both;">
+				<p style="float: left;">&nbsp;&nbsp;&nbsp; CSE 100</p>
+				<div style="float: right;">
+					<button data-role="button" data-icon="delete" data-mini="true"
+					style="width: 100px;" id="delete1">Remove</button>
+				</div>
+			</div>
+			
+			<div id="d2" style="clear: both;">
+				<p style="float: left;">&nbsp;&nbsp;&nbsp; CSE 101</p>
+				<div style="float: right;">
+					<button data-role="button" data-icon="delete" data-mini="true"
+					style="width: 100px;" id="delete2">Remove</button>
+				</div>
+			</div>
+			
+			<div id="d3" style="clear: both;">
+				<p style="float: left;">&nbsp;&nbsp;&nbsp; CSE 110</p>
+				<div style="float: right;">
+					<button data-role="button" data-icon="delete" data-mini="true"
+					style="width: 100px;" id="delete3">Remove</button>
+				</div>
+			</div>
+			
+			<div id="d4" style="clear: both;">
+				<p style="float: left;">&nbsp;&nbsp;&nbsp; CSE 120</p>
+				<div style="float: right;">
+					<button data-role="button" data-icon="delete" data-mini="true"
+					style="width: 100px;" id="delete4">Remove</button>
+				</div>
+			</div>
+			
+			<div id="d5" style="clear: both;">
+				<p style="float: left;">&nbsp;&nbsp;&nbsp; CSE 130</p>
+				<div style="float: right;">
+					<button data-role="button" data-icon="delete" data-mini="true"
+					style="width: 100px;" id="delete5">Remove</button>
+				</div>
+			</div>
+			
+		</div>
+		
+		<footer data-role="footer" data-theme="b" data-position="fixed">
+			<nav data-role="navbar" data-iconpos="top">
+				<ul>
+					<li><a href = "../regiwiz_testing_2.html" 
+						data-direction="reverse" data-transition="slide">
+						Home</a></li>
+					<li><a href = "../cse170project/tips.html" data-icon="false" data-transition="flip">
+						Tips & Updates</a></li>
+				</ul>
+			</nav>
+		</footer>
+		
+		<script>
+			$("#delete1").click(function() { $("#d1").remove();} );
+			$("#delete2").click(function() { $("#d2").remove();} );
+			$("#delete3").click(function() { $("#d3").remove();} );
+			$("#delete4").click(function() { $("#d4").remove();} );
+			$("#delete5").click(function() { $("#d5").remove();} );
+		</script>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
