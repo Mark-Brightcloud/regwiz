@@ -12,20 +12,26 @@
 	</head> 
 	
 	<body>
+	<div id="homePage_ABtesting" data-role="page" data-fullscreen="true" data-theme="a" style="background-color: white;">
+		<div id="headerDiv" data-theme="b" data-role="header" data-position="fixed">
+	    <!-- The #menu is the ID of the navigation panel element -->
+	    	<a href="#menu" data-role="button" data-theme="a" data-rel="back" data-inline="true" data-icon="bars">Menu</a>
+		    <h3>My Schedule</h3>
+	  	</div>
+	  
+	  	<!-- This is the navigation panel that opens to show the menu -->
+		<div data-role="panel" id="menu" data-display="reveal" data-theme="b">
+			<div class="ui-panel-inner">
+		      	<!-- This UL is the menu, where the items will be added -->
+	      		<!-- Make sure you don't add any <li> or any other content inside it! -->
+				<ul data-role="listview" class="mainMenu"></ul>
+		    </div>
+	  	</div>
 	
-	<div id="myschedule" data-role="page" data-fullscreen="true" data-theme="a" style="background-color: white;">
-		
-		<header id="headerDiv" data-role="header" data-theme="b" data-position="fixed">
-			<h3>My Schedule</h3>
-			
-		</header>
-
-
-
 		<div data-role="content"><br />
 			<label for="name">Please enter your 4-digit lookup code:</label>
 			<input type="text" name="name" id="basic" value="" />
-			<a href="../cse170project/myschedule2.html" data-mini="true" data-role="button" data-transition="flip">
+			<a href="../cse170project/myschedule2_ABtesting.html" data-mini="true" data-role="button" data-transition="flip">
 			Submit</a><br />
 			<div>
 				<h3>Important Info!</h3>
@@ -41,21 +47,9 @@
 			</div>
 			
 		</div>
-		
-		
-		
-		<footer data-role="footer" data-theme="b" data-position="fixed">
-			<nav data-role="navbar">
-				<ul>
-					<li><a href = "../regiwiz_testing_2.html" data-direction="reverse" data-transition="slide">
-						Home</a></li>
-					<li><a href = "../cse170project/tips.html" data-transition="flip">
-						Tips & Updates</a></li>
-				</ul>
-			</nav>
-		</footer>
-	
 	</div>
+
+	<script src="regwiz_js_ABtesting_1.js"></script>
 	</body>
 </html>
 

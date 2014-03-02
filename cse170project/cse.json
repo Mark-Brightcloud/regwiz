@@ -1,6 +1,7 @@
 [
 	{ 
 	"name": "CSE 100",
+	"courseID": "809009",
 	"courseName": "Advanced Data Structures",
 	"units": "4",
 	"enrollment": "40",
@@ -15,6 +16,7 @@
 
 	{ 
 	"name": "CSE 101",
+	"courseID": "809015",
 	"courseName": "Design/Analysis of Algorithm",
 	"units": "4",
 	"enrollment": "150",
@@ -29,6 +31,7 @@
 
 	{ 
 	"name": "CSE 105",
+	"courseID": "809019",
 	"courseName": "Intro/Theory of Computation",
 	"units": "4",
 	"enrollment": "100",
@@ -43,6 +46,7 @@
 
 	{ 
 	"name": "CSE 110",
+	"courseID": "809021",
 	"courseName": "Software Engineering",
 	"units": "4",
 	"enrollment": "46",
@@ -57,6 +61,7 @@
 
 	{ 
 	"name": "CSE 120",
+	"courseID": "809030",
 	"courseName": "Princ/Computer Operating Systm",
 	"units": "4",
 	"enrollment": "49",
@@ -71,6 +76,7 @@
 
 	{ 
 	"name": "CSE 125",
+	"courseID": "809032",
 	"courseName": "Software Sys Design & Implemnt",
 	"units": "4",
 	"enrollment": "15",
@@ -85,6 +91,7 @@
 
 	{ 
 	"name": "CSE 127",
+	"courseID": "809033",
 	"courseName": "Intro to Computer Security",
 	"units": "4",
 	"enrollment": "90",
@@ -99,6 +106,7 @@
 
 	{ 
 	"name": "CSE 130",
+	"courseID": "809035",
 	"courseName": "Progrmng Lang:Princpl&Paradigm",
 	"units": "4",
 	"enrollment": "45",
@@ -113,6 +121,7 @@
 
 	{ 
 	"name": "CSE 131",
+	"courseID": "809038",
 	"courseName": "Compiler Construction",
 	"units": "4",
 	"enrollment": "124",
@@ -127,6 +136,7 @@
 
 	{ 
 	"name": "CSE 135",
+	"courseID": "809041",
 	"courseName": "Server-side Web Applications",
 	"units": "4",
 	"enrollment": "145",
@@ -141,6 +151,7 @@
 
 	{ 
 	"name": "CSE 140",
+	"courseID": "809043",
 	"courseName": "Component&Desgn Tech/Digtl Sys",
 	"units": "4",
 	"enrollment": "200",
@@ -155,6 +166,7 @@
 
 	{ 
 	"name": "CSE 140L",
+	"courseID": "809045",
 	"courseName": "Digital Systems Laboratory",
 	"units": "2",
 	"enrollment": "200",
@@ -169,6 +181,7 @@
 
 	{ 
 	"name": "CSE 141",
+	"courseID": "809047",
 	"courseName": "Intro/Computer Architecture",
 	"units": "4",
 	"enrollment": "44",
@@ -183,6 +196,7 @@
 
 	{ 
 	"name": "CSE 141L",
+	"courseID": "809049",
 	"courseName": "Project/Computer Architecture",
 	"units": "2",
 	"enrollment": "44",
@@ -197,6 +211,7 @@
 
 	{ 
 	"name": "CSE 145",
+	"courseID": "809051",
 	"courseName": "Embedded System Design Project",
 	"units": "4",
 	"enrollment": "0",
@@ -211,6 +226,7 @@
 
 	{ 
 	"name": "CSE 148",
+	"courseID": "809052",
 	"courseName": "Adv Processor Arch Design Proj",
 	"units": "4",
 	"enrollment": "5",
@@ -225,6 +241,7 @@
 
 	{ 
 	"name": "CSE 151",
+	"courseID": "809055",
 	"courseName": "Intro to A.I. Stats Approach",
 	"units": "4",
 	"enrollment": "126",
@@ -239,6 +256,7 @@
 
 	{ 
 	"name": "CSE 168",
+	"courseID": "809057",
 	"courseName": "Computer Graphics II:Rendering",
 	"units": "4",
 	"enrollment": "30",
@@ -253,6 +271,7 @@
 
 	{ 
 	"name": "CSE 184",
+	"courseID": "804505",
 	"courseName": "Computational Molecular Biol.",
 	"units": "4",
 	"enrollment": "8",
@@ -267,6 +286,7 @@
 
 	{ 
 	"name": "CSE 190",
+	"courseID": "809060",
 	"courseName": "Computational Molecular Biol.",
 	"units": "4",
 	"enrollment": "38",
@@ -281,6 +301,7 @@
 
 	{ 
 	"name": "CSE 191",
+	"courseID": "809089",
 	"courseName": "Semnr/Computer Sci & Engineer",
 	"units": "1-4",
 	"enrollment": "28",

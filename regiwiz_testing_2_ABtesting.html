@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<title>Welcome to RegWiz</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />		
+		<link rel="stylesheet" href="./cse170project/jquery.mobile-1.4.0/jquery.mobile-1.4.0.min.css" />
+		<script src="./cse170project/jquery.mobile-1.4.0/jquery-1.9.1.min.js"></script>
+		<script src="./cse170project/jquery.mobile-1.4.0/jquery.mobile-1.4.0.min.js"></script>
+	</head> 
+	
+	<body>
+	<div data-role="page" id="homePage_ABtesting">
+		<div data-theme="b" data-role="header" data-position="fixed">
+	    <!-- The #menu is the ID of the navigation panel element -->
+	    	<a href="#menu" data-role="button" data-theme="a" data-rel="back" data-inline="true" data-icon="bars">Menu</a>
+		    <h3>RegWiz</h3>
+	  	</div>
+	  
+	  	<!-- This is the navigation panel that opens to show the menu -->
+		<div data-role="panel" id="menu" data-display="reveal" data-theme="b">
+			<div class="ui-panel-inner">
+		      	<!-- This UL is the menu, where the items will be added -->
+	      		<!-- Make sure you don't add any <li> or any other content inside it! -->
+				<ul data-role="listview" class="mainMenu"></ul>
+		    </div>
+	  	</div>
+	
+		<div data-role="content">	
+			<ul id="classList" data-role="listview" data-inset="true" data-filter="true"
+				data-filter-placeholder="Type CSE course name or number...">
+			</ul>
+		</div>
+		
+	</div>
+		
+	<script src="./cse170project/regwiz_js_ABtesting.js"></script>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+

@@ -1,3 +1,28 @@
+var menu = [
+  {
+    title: "Home Page",
+    url  : "../regiwiz_testing_2_ABtesting.html"
+  },
+  {
+    title: "My Schedule",
+    url  : "./cse170project/myschedule_ABtesting.html"
+  },
+  {
+    title: "Tips & Updates",
+    url  : "./cse170project/tips_ABtesting.html"
+  }
+];
+
+$(document).on("pageshow", function (event) {
+	var items = '', 		
+	ul = $(".mainMenu:empty");
+	for (var i = 0; i < menu.length; i++) {
+		items += '<li><a href="' + menu[i].url + '">' + menu[i].title + '</a></li>';
+	}
+	ul.append(items);
+	ul.listview('refresh'); 
+});
+
 var classInfoFile = "./cse170project/cse.json";
 
 $.getJSON(classInfoFile, function(classes){
@@ -87,19 +112,19 @@ function goToClassDetailPage(name, courseID, courseName, units, enrollment, open
 		  		"<nav data-role='navbar' data-iconpos='top'>" +
 		  			"<ul>" +
 		  				"<li>" +
-		  					"<a href='#homePage' data-icon='false' " +
+		  					"<a href='#homePage_ABtesting' data-icon='false' " +
 		  						"data-direction='reverse'" +
 		  						"data-transition='slide'>"+
 		  						"Home</a>" +
 		  				"</li>" +
 		  				
 		  				"<li>" +
-		  					"<a href='./cse170project/myschedule.html' data-icon='false'>"+
+		  					"<a href='./cse170project/myschedule_ABtesting.html' data-icon='false'>"+
 		  						"My Schedule</a>" +
 		  				"</li>" +
 		  				
 		  				"<li>" +
-		  					"<a href='./cse170project/myschedule2.html' data-icon='false'>"+
+		  					"<a href='./cse170project/myschedule2_ABtesting.html' data-icon='false'>"+
 		  						"Add</a>" +
 		  				"</li>" +
 		  			"</ul>" +
